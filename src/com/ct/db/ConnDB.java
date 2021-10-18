@@ -9,7 +9,7 @@ public class ConnDB {
             Class.forName("com.mysql.jdbc.Driver");
             String url = "jdbc:mysql:///web";
             String user = "root";
-            String password = "wang2001";
+            String password = "*****";
             conn = DriverManager.getConnection(url,user,password);
         } catch (Exception e) {
             e.printStackTrace();
